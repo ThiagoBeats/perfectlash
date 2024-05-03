@@ -181,6 +181,7 @@ footer {
     text-align: center;
   }
   >.selos{ 
+    height: 15vh;
     >img{
     height: 15vh;
   }}

@@ -181,8 +181,11 @@ footer {
     text-align: center;
   }
   >.selos{ 
-    height: 15vh;
     >img{
     height: 15vh;
+    &:hover{
+        transition: 0.2s;
+        scale: 1.2;
+    }
   }}
 }

@@ -167,15 +167,21 @@ footer {
 }
 
 .promocao {
-  height: 35vh;
+  height: 50vh;
   background-color: rgb(247, 118, 118);
   color: yellow;
-  width: 100%;
+  width: 96vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 2%;
   >p{
     font-size: 2em;
+    text-align: center;
   }
+  >.selos{ 
+    >img{
+    height: 15vh;
+  }}
 }

@@ -130,7 +130,7 @@ footer {
   background-color: #556099;
   flex-direction: column;
   width: 100vw;
-  height: 90vh;
+  height: auto;
   color: white;
   font-family: "Prata", serif;
   > div {
@@ -188,4 +188,25 @@ footer {
         scale: 1.2;
     }
   }}
+}
+
+.whatsapp{
+    height: 1vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    border: 2px solid transparent;
+    background-color: transparent;
+    
+}
+.fa{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-icons-img{
+    height: 5vh;
+    width: auto;
 }
